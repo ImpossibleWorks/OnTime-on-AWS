@@ -1,8 +1,6 @@
 # OnTime on AWS
 
-Bits of code to start [OnTime](#https://getontime.no/) on an EC2 instance on AWS.
-
-These instructions will guide you through setting up an OnTime server on an EC2 instance in AWS. Please note that the server will be publicly accessible and lacks security measures. Proceed with caution.
+These instructions will guide you through setting up an [OnTime Server](#https://getontime.no/) on an EC2 instance in AWS. Please note that the server will be publicly accessible and lacks security measures. Proceed with caution.
 
 I typically go through this process for each event I do. Once the event is over, I terminate everything as to not incur any costs between shows.
 
@@ -82,7 +80,7 @@ Instance type: t2.micro
 Key pair name: Your existing key pair
 ```
 
-<small>_Note: I recommend using an existing key pair that you have the private key for. It just keeps things tidy. See [Prerequesites](#prerequisites)._</small>
+<small>_Note: I recommend using an existing key pair that you have the private key for. It just keeps things tidy. See [Prerequisites](#prerequisites)._</small>
 
 #### Network settings
 
@@ -90,7 +88,7 @@ Key pair name: Your existing key pair
 Select existing security group: OnTime Security Group.
 ```
 
-<small>_Note: Choose whatever Security Group you created as part of the [Prerequesites](#prerequisites)._</small>
+<small>_Note: Choose whatever Security Group you created as part of the [Prerequisites](#prerequisites)._</small>
 
 #### Configure storage
 
