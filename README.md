@@ -60,7 +60,7 @@ Within the EC2 section of AWS, click the orange _Launch instance_ button then se
 Name: OnTime, or anything you wish.
 ```
 
-#### Application and OS Images (Amazon Machine Image)
+#### Application and OS Images - Amazon Machine Image (AM))
 
 ```
 AMI: Amazon Linux 2023 AMI, 64-bit (x86)
