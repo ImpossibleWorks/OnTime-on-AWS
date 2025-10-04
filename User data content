@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ##### Create the docker-compose.yml file
+# ##### Create the docker-compose.yml file. Note might have to us sudo with cat.
 cat > /docker-compose.yml <<EOF
 version: "3"
 
