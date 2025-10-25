@@ -69,10 +69,10 @@ AMI: Amazon Linux 2023 AMI, 64-bit (x86)
 #### Instance type
 
 ```
-Instance type: t2.micro
+Instance type: t3.micro
 ```
 
-<small>_Note: I've had success with type: t2.micro (which is free-tier eligible by the way), but if you need more power, up it to t2.medium, t3.medium, or higher._</small>
+<small>_Note: I've had success with type: t3.micro (which is free-tier eligible by the way), but if you need more power, up it to t2.medium, t3.medium, or higher._</small>
 
 #### Key pair (login)
 
