@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# ##### Create the docker-compose.yml file
-cat > /docker-compose.yml <<EOF
+# ##### Create the docker-compose.yml file.
+sudo cat > /docker-compose.yml <<EOF
 version: "3"
 
 services:
